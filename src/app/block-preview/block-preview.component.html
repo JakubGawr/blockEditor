@@ -1,0 +1,4 @@
+<app-nav (breakpointChange)="setBreakpoint($event)" [name]="(block | async).name" [tag]="(block | async).tag" (back)="onBack()"></app-nav>
+<div class="iframe-holder">
+  <iframe #iframe [srcdoc]="element" (load)="onIframeLoad()" ></iframe>
+</div>

@@ -1,0 +1,18 @@
+<div class="nav">
+  <div class="nav-item">
+    <mat-icon (click)="back.emit()" style="margin-right: 10px" aria-hidden="false" aria-label="Example home icon">arrow_back</mat-icon>
+    <h1>{{name}}</h1>
+  </div>
+  <div class="nav-item">
+  <mat-button-toggle-group (change)="onChange($event)" name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="320px">XS</mat-button-toggle>
+    <mat-button-toggle value="576px">SM</mat-button-toggle>
+    <mat-button-toggle value="768px">MD</mat-button-toggle>
+    <mat-button-toggle value="992px">LG</mat-button-toggle>
+    <mat-button-toggle value="1200px">XL</mat-button-toggle>
+  </mat-button-toggle-group>
+  </div>
+  <div class="nav-item">
+    <h1>{{tag}}</h1>
+  </div>
+</div>

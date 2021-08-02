@@ -1,0 +1,9 @@
+[{
+    "name": "newBlock",
+    "html": "<div class=\"container\">\n  <partial src=\"../partials/btn/btn.html\" content=\"Partial btn content\"></partial>\n</div>\n",
+    "css": "div {\n  background: red; }\n  div h1 {\n    color: aqua; }\n"
+}, {
+    "name": "header",
+    "html": "<div class=\"container\">\n  <partial src=\"../partials/headline/headline.html\" title=\"Partial html content\"></partial>\n</div>\n\n<h1>Headline content block</h1>\n",
+    "css": ".test {\n  background: blue;\n  height: 100%; }\n  .test span {\n    color: yellow; }\n\n.title {\n  font-size: 30px;\n  color: yellowgreen; }\n"
+}]

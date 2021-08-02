@@ -1,0 +1,17 @@
+[{
+    "id": "69dfb4a2-43f8-41d8-90c0-e9c5a0ab7ecd",
+    "tag": "bio",
+    "name": "button",
+    "html": "<div>\n    <button class=\"btn btn-primary\">Button primary</button>\n</div>",
+    "css": ".btn {\n  padding: 1rem;\n  color: white;\n  background: #2196f3;\n  border: none;\n  font-size: 1rem;\n  font-family: 'Lato', sans-serif; }\n"
+}, {
+    "id": "971668e3-31fa-496f-a91d-2da1f91be50c",
+    "name": "header",
+    "html": "<div class=\"container\">\n    <div>\n        <div class=\"title\">Partial html content</div> <span>Some span 123</span>\n\n        <div>Some text3 21</div>\n    </div>\n</div>\n\n<h1>Headline content block</h1>\n",
+    "css": ".test {\n  background: blue;\n  height: 100%; }\n  .test span {\n    color: yellow; }\n\n.title {\n  font-size: 30px;\n  color: yellowgreen; }\n"
+}, {
+    "id": "cd951788-b710-4e51-b34f-3a9cd5bff552",
+    "name": "newBlock",
+    "html": "<div class=\"container\">\n    <button class=\"btn\">Partial btn content</button>\n</div>",
+    "css": "div {\n  background: red; }\n  div h1 {\n    color: aqua; }\n"
+}]

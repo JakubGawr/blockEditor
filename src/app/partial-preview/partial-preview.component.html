@@ -1,0 +1,2 @@
+<app-nav [name]="(partial | async).name" (back)="onBack()"></app-nav>
+<iframe #iframe [srcdoc]="element" (load)="onIframeLoad()" ></iframe>

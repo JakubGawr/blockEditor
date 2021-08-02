@@ -1,0 +1,24 @@
+.block{
+  min-width: 250px;
+  min-height: 360px;
+  border-radius: 10px;
+  max-width: 350px;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+}
+.block-img{
+  display: block;
+  padding: 6rem;
+  img{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
